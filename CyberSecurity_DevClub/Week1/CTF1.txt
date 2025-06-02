@@ -1,0 +1,6 @@
+Try it out: Flag was right there,didnt have to do anything
+Welcome agent:Ssh,then ls,then cat for the only file,the key was there
+Hidden in the crowd: Ssh,then ls -a to show hidden files,then flag file was there
+Process hunter: I checked running processes by ps aux,then flag was there (root           1  0.0  0.0   2616  1536 ?        Ss   13:30   0:00 /bin/sh -c /usr/sbin/sshd && sleep --flag=dcCTF{ps_aux_r3v34l5_4ll} 99999999 & /usr/sbin/sshd -D)
+Git gud: I cd'ed into the folder then i saw git logs,in one of the commits the flag was deleted,so i found the flag
+Locked vault: gave read permissions,then i did cat then i decoded the password(unlock123),then used similar approach for step2.sh and step3.sh
